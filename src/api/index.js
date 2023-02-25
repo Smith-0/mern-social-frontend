@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://mern-clone-instagram.herokuapp.com",
+  baseURL: "https://mern-insta-be-production.up.railway.app",
 });
 
 API.interceptors.request.use((req) => {
