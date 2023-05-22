@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const API = axios.create({
-  baseURL: "https://mern-insta-be-production.up.railway.app",
+  baseURL: "https://mern-insta-6xizf2kcg-codewithsahil.vercel.app/",
 });
 
 API.interceptors.request.use((req) => {
